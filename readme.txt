@@ -2,6 +2,12 @@
 
 A recreation of the Cursor.com homepage, built with HTML and CSS to practice frontend development and design implementation.
 
+## 📌 Demo
+
+- **Screenshots:**
+  ![alt text](demo.png)
+---
+
 ## 🎨 Sections Recreated
 
 This project recreates the following sections from the Cursor homepage:
