@@ -6,6 +6,7 @@ A recreation of the Cursor.com homepage, built with HTML and CSS to practice fro
 
 - **Screenshots:**
   ![alt text](demo.png)
+
 ---
 
 ## 🎨 Sections Recreated
@@ -13,25 +14,30 @@ A recreation of the Cursor.com homepage, built with HTML and CSS to practice fro
 This project recreates the following sections from the Cursor homepage:
 
 ### 1. **Navigation Bar**
+
 - Fixed position header with logo and navigation links
 - Sign In and Download buttons
 - Responsive navigation menu
 
 ### 2. **Hero Section (Intro)**
+
 - Main headline with tagline
 - Download CTA button
 - Layered background images with overlay effect
 
 ### 3. **Trusted Organizations**
+
 - Company logos grid display
 - Features logos from Stripe, OpenAI, Linear, Datadog, Nvidia, Figma, Ramp, and Adobe
 
 ### 4. **Features Sections**
+
 - **Feature 1**: Agent AI capabilities with left-aligned text and right-aligned image
 - **Feature 2**: Autocomplete functionality with reversed layout (image left, text right)
 - **Feature 3**: Ecosystem integration showcase
 
 ### 5. **Testimonials Grid**
+
 - 6-card testimonial grid layout
 - Quotes from industry leaders including:
   - Diana Hu (Y Combinator)
@@ -42,29 +48,35 @@ This project recreates the following sections from the Cursor homepage:
   - Greg Brockman (OpenAI)
 
 ### 6. **Stay on the Frontier Section**
+
 - Three-column flex layout
 - Cards showcasing AI models, codebase understanding, and enterprise solutions
 
 ### 7. **Changelog**
+
 - Version updates display
 - Release dates and feature descriptions
 - CTA link to full changelog
 
 ### 8. **Join Us Section**
+
 - Team recruitment area
 - Company mission statement
 - Team photo
 
 ### 9. **Recent Highlights**
+
 - Blog post preview grid
 - Product and research announcements
 - Date stamps and categories
 
 ### 10. **Download CTA**
+
 - Final call-to-action section
 - Prominent download button
 
 ### 11. **Footer**
+
 - Multi-column footer navigation
 - Links organized by category (Product, Resources, Company, Legal, Connect)
 - Copyright and SOC 2 certification notice
@@ -77,14 +89,15 @@ The design uses a dark, professional color scheme:
 
 ```css
 :root {
-  --accent-color: #1b1913;      /* Dark brown - secondary background */
-  --main-color: #14120b;        /* Very dark brown - primary background */
-  --cta-color: #f54e00;         /* Orange - call-to-action buttons and links */
+  --accent-color: #1b1913; /* Dark brown - secondary background */
+  --main-color: #14120b; /* Very dark brown - primary background */
+  --cta-color: #f54e00; /* Orange - call-to-action buttons and links */
   --cta-hover-color: #f54e00bf; /* Orange with transparency - hover states */
 }
 ```
 
 ### Color Breakdown:
+
 - **Primary Background**: `#14120b` (Very dark brown/black)
 - **Secondary Background**: `#1b1913` (Dark brown - used for cards and sections)
 - **Text Color**: `#ffffff` (White for primary text)
